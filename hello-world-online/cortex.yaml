@@ -1,0 +1,10 @@
+# this is an example for cortex release 0.21 and may not deploy correctly on other releases of cortex
+
+- name: hello-world
+  kind: RealtimeAPI
+  predictor:
+    type: python
+    path: predictor.py
+  compute:
+    cpu: 1
+    mem: 2G

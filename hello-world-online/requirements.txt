@@ -1,0 +1,4 @@
+# if your python project require different libraries, mention them here
+# eg below
+
+#torch==1.6.0+cpu
